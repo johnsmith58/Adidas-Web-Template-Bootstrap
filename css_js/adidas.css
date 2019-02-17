@@ -1,0 +1,254 @@
+
+    
+#nav-img {
+    height: 50px;
+}
+#mainNav {
+    min-height: 56px;
+    background-color: #fff;
+  }
+  @media (min-width: 320px) {
+      #mainNav {
+          /* background: teal; */
+      }
+      .navbar-nav {
+          /* background-color: teal; */
+          /* width: 100%; */
+      }
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #64a19d;
+    border: 1px solid #64a19d;
+  }
+  
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+  
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent;
+  }
+  
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: transparent;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+      padding: .5rem 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .nav-link {
+      -webkit-transition: none;
+      transition: none;
+      padding: 2rem 1.5rem;
+      /* color: rgba(255, 255, 255, 0.5); */
+    }
+    #mainNav .nav-link:hover {
+      color: rgba(75, 148, 16, 0.75);
+    }
+    #mainNav .nav-link:active {
+      color: white;
+    }
+    #mainNav.navbar-shrink {
+      background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #161616;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: #161616;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #64a19d;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #467370;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #64a19d;
+      outline: none;
+      border-bottom: 0.25rem solid #64a19d;
+    }
+  }
+
+
+/* header */
+.btn {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(43, 165, 13, 0.322) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    margin-top: 350px;
+  }
+  
+  .btn-primary {
+    background-color: #0cd115;
+  }
+  
+  .btn-primary:hover {
+    background-color: #30be1e;
+  }
+  
+  .btn-primary:focus {
+    background-color: #04ff25;
+    color: white;
+  }
+  
+  .btn-primary:active {
+    background-color: #07ff1c !important;
+  }
+  @media (max-width: 320px ){
+      .btn {
+          /* margin-top: 300px; */
+      }
+  }
+
+.masthed {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    min-height: 40rem;
+    padding: 15rem 0;
+    background:  url("../adidasImages/addidas-logo-transfrom.png") no-repeat center center fixed;
+    /* background-color: #09ff32; */
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 40%;
+    
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        /* height: 80px; */
+    }
+    .navbar-brand img {
+        height: 50px;
+    }
+    
+}
+@media (max-width: 320px) {
+    .masthed {
+        background-size: 120%;
+        
+    }
+}
+
+/* about section */
+.about-section {
+    /* padding-top: 8rem; */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(75%, rgb(2, 7, 247)), to(rgba(0, 0, 0, 0.959)));
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(233, 238, 235) 75%, rgb(213, 219, 216) 100%);
+}
+.about-section p {
+    margin-bottom: 5rem;
+}
+.about-section {
+    padding: 10rem 0;
+}
+.about-section .about-text {
+    padding: 2rem;
+}
+.about-section .about-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid black;    
+}
+@media (min-width: 992px){
+    .about-text {
+        margin-top: 150px;
+    }
+}
+.items-section {
+    padding: 10rem 0;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#eeff02), color-stop(75%, rgb(2, 7, 247)), to(rgba(0, 0, 0, 0.959))); */
+    background: linear-gradient(to bottom, rgb(213, 219, 216) 100%, rgb(168, 177, 174) 75%, rgb(119, 126, 122) 100%);
+    
+}
+.items-section .items-text {
+    padding: 5rem;
+    font-size: 90%;
+}
+.items-section .items-text {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+}
+
+/* signup section */
+
+.signup-section {
+    padding: 10rem 0;
+    /* background-color: yellow; */
+    background: linear-gradient(to bottom, rgb(213, 219, 216) 100%, rgb(1, 255, 170) 75%, rgb(2, 235, 126) 100%);
+}
+.contact-section {
+    padding: 5rem 0 0;
+    background: linear-gradient(to top, rgb(212, 224, 218) 100%, rgb(30, 73, 59) 75%, rgb(2, 10, 6) 100%);
+}
+.contact-section .card {
+    border: 0;
+    border-bottom: 0.35rem solid #79857b;
+}
+.contact-section .card h4 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+.contact-section .social {
+    margin-top: 5rem;
+}
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    line-height: 3rem;
+
+}
+.contact-btn {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(18, 81, 253, 0.322) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    border-radius: 7px;
+  }
+
+.text-black {
+    color: black;
+}
+.bg-black {
+    background-color: black;
+}
+footer {
+    padding: 1rem 0;
+}
